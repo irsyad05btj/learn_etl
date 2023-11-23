@@ -60,24 +60,48 @@ Proses menarik data dari sumber menjadi informasi pada penyimpanan
 
     ```
 
-2. Scheduler
-    Penjadwalan jalan nya suatu program
-    
-3. Worker
-    Program yang bertugas menjalankan task/fungsi
+2. Scheduler: Penjadwalan jalan nya suatu program
+
+3. Worker: Program yang bertugas menjalankan task/fungsi
 
     Contoh scheduler-worker:
     ```python
-        from time import sleep
     from apscheduler.schedulers.background import BlockingScheduler
 
     # Creates a default Background Scheduler
     sched = BlockingScheduler()
 
-    def prompt():
+    def prompt(): # worker task
         print("Executing Task...")
 
-    sched.add_job(prompt,'interval', seconds=5)
 
+    sched.add_job(prompt,'interval', seconds=5) # scheduler jalan setiap 5 detik (interval)
     sched.start()
     ```
+
+
+### Transform
+Jenis-jenis transformasi data 
+    - Pembersihan data: data tidak terpakai, dan duplikasi data
+    - Penyesuaian kebutuhan data: penggabungan, pemisahan, dll
+    - Pengubahan tipe data
+
+    Contoh:
+    ```python
+    def reduce(data): # menghilang kan 2 jenis data
+        return res
+
+    def remove_duplicate(data): # menghilangkan data duplikat, bisa diwakilkan dengan fungsi uniq
+        return res
+
+    def combine(data1, data2): # menggabung kan 2 data
+        return res
+
+    def convert(data_json): # ubah dari json of list, jadi list of json: Test!
+        return data_list
+    ```
+
+### Load
+Hal yang perlu diperhatikan:
+    - Model penyimpanan data: Umumnya adalah database sql, terdapat hadoop, file (csv, excel, json, xml)
+    - Perlu nya perencanaan pada struktur penyimpanan: ERD, setup primary dan foreign key.
