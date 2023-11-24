@@ -88,16 +88,46 @@ Jenis-jenis transformasi data
 Contoh :
 
 ```python
-def reduce(data): # menghilang kan 2 jenis data
+def reduce(data): # menghilang kan 2 jenis data, co: IPA dan IPS
+    if type(data) is dict:
+        if 'IPA' in data:
+            del data['IPA']
+        if 'IPS' in data:
+            del data['IPS']
+        res = data 
+    elif type(data) is list:
+        # uji peserta
+        res = data 
+    else:
+        res = data 
     return res
 
-def remove_duplicate(data): # menghilangkan data duplikat, bisa diwakilkan dengan fungsi uniq
-    return res
-
-def combine(data1, data2): # menggabung kan 2 data
+def combine(data1, data2): # menggabung kan 2 data yang bersifat dict
+    if (type(data1) is dict) and (type(data2) is dict):
+        res = {}
+        for key in data1:
+            res[key] = data1[key]
+        for key in data2:
+            if key not in res:
+                res[key] = data2[key]
+    else:
+        None
+    
     return res
 
 def convert(data_json): # ubah dari json of list, jadi list of json: Test!
+    if not (type(data_json) is dict):
+        return None
+
+    data_list = []
+    key_0 = list(data_json)[0]
+    len_data = len(data_json[key_0]) # asumsi seluruh data panjangnya sama
+    for i in range(len_data):
+        res_elm = {}
+        for key in data_json:
+            res_elm[key] = data_json[key][i]
+        data_list.append(res_elm)
+
     return data_list
 ```
 

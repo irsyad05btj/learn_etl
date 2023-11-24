@@ -3,6 +3,8 @@ import requests
 url = "https://api.publicapis.org/entries"
 res_data = requests.get(url, params={},data={}).json()
 
+print(res_data)
+
 # database
 import MySQLdb
 conn = MySQLdb.connect(
