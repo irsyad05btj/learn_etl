@@ -1,0 +1,242 @@
+[
+    {
+        "No": 1,
+        "Murid": "Andi",
+        "Matematika": 69,
+        "IPA": 97,
+        "IPS": 86,
+        "Bahasa": 70,
+        "Seni": 60,
+        "Olahraga": 73
+    },
+    {
+        "No": 2,
+        "Murid": "Budi",
+        "Matematika": 75,
+        "IPA": 81,
+        "IPS": 71,
+        "Bahasa": 78,
+        "Seni": 78,
+        "Olahraga": 68
+    },
+    {
+        "No": 3,
+        "Murid": "Caca",
+        "Matematika": 81,
+        "IPA": 100,
+        "IPS": 77,
+        "Bahasa": 64,
+        "Seni": 94,
+        "Olahraga": 62
+    },
+    {
+        "No": 4,
+        "Murid": "Densu",
+        "Matematika": 64,
+        "IPA": 64,
+        "IPS": 69,
+        "Bahasa": 89,
+        "Seni": 60,
+        "Olahraga": 88
+    },
+    {
+        "No": 5,
+        "Murid": "Endah",
+        "Matematika": 86,
+        "IPA": 80,
+        "IPS": 63,
+        "Bahasa": 86,
+        "Seni": 72,
+        "Olahraga": 99
+    },
+    {
+        "No": 6,
+        "Murid": "Faris",
+        "Matematika": 62,
+        "IPA": 80,
+        "IPS": 78,
+        "Bahasa": 72,
+        "Seni": 60,
+        "Olahraga": 76
+    },
+    {
+        "No": 7,
+        "Murid": "Gagah",
+        "Matematika": 94,
+        "IPA": 91,
+        "IPS": 80,
+        "Bahasa": 72,
+        "Seni": 73,
+        "Olahraga": 94
+    },
+    {
+        "No": 8,
+        "Murid": "Insan",
+        "Matematika": 68,
+        "IPA": 71,
+        "IPS": 99,
+        "Bahasa": 86,
+        "Seni": 61,
+        "Olahraga": 98
+    },
+    {
+        "No": 9,
+        "Murid": "Kuncoro",
+        "Matematika": 94,
+        "IPA": 90,
+        "IPS": 76,
+        "Bahasa": 94,
+        "Seni": 68,
+        "Olahraga": 80
+    },
+    {
+        "No": 10,
+        "Murid": "Laras",
+        "Matematika": 90,
+        "IPA": 88,
+        "IPS": 77,
+        "Bahasa": 79,
+        "Seni": 83,
+        "Olahraga": 90
+    },
+    {
+        "No": 11,
+        "Murid": "Mahmud",
+        "Matematika": 61,
+        "IPA": 83,
+        "IPS": 97,
+        "Bahasa": 63,
+        "Seni": 81,
+        "Olahraga": 62
+    },
+    {
+        "No": 12,
+        "Murid": "Naufan",
+        "Matematika": 77,
+        "IPA": 73,
+        "IPS": 87,
+        "Bahasa": 91,
+        "Seni": 86,
+        "Olahraga": 82
+    },
+    {
+        "No": 13,
+        "Murid": "Olga",
+        "Matematika": 68,
+        "IPA": 84,
+        "IPS": 88,
+        "Bahasa": 72,
+        "Seni": 77,
+        "Olahraga": 78
+    },
+    {
+        "No": 14,
+        "Murid": "Pandji",
+        "Matematika": 96,
+        "IPA": 63,
+        "IPS": 65,
+        "Bahasa": 97,
+        "Seni": 63,
+        "Olahraga": 79
+    },
+    {
+        "No": 15,
+        "Murid": "Qori",
+        "Matematika": 86,
+        "IPA": 65,
+        "IPS": 72,
+        "Bahasa": 72,
+        "Seni": 95,
+        "Olahraga": 70
+    },
+    {
+        "No": 16,
+        "Murid": "Ratih",
+        "Matematika": 65,
+        "IPA": 71,
+        "IPS": 88,
+        "Bahasa": 80,
+        "Seni": 100,
+        "Olahraga": 65
+    },
+    {
+        "No": 17,
+        "Murid": "Sasa",
+        "Matematika": 74,
+        "IPA": 89,
+        "IPS": 78,
+        "Bahasa": 71,
+        "Seni": 82,
+        "Olahraga": 61
+    },
+    {
+        "No": 18,
+        "Murid": "Tia",
+        "Matematika": 84,
+        "IPA": 85,
+        "IPS": 92,
+        "Bahasa": 91,
+        "Seni": 92,
+        "Olahraga": 76
+    },
+    {
+        "No": 19,
+        "Murid": "Ujang",
+        "Matematika": 97,
+        "IPA": 64,
+        "IPS": 71,
+        "Bahasa": 64,
+        "Seni": 90,
+        "Olahraga": 82
+    },
+    {
+        "No": 20,
+        "Murid": "Vigo",
+        "Matematika": 88,
+        "IPA": 72,
+        "IPS": 71,
+        "Bahasa": 94,
+        "Seni": 69,
+        "Olahraga": 83
+    },
+    {
+        "No": 21,
+        "Murid": "Wawan",
+        "Matematika": 61,
+        "IPA": 96,
+        "IPS": 75,
+        "Bahasa": 81,
+        "Seni": 74,
+        "Olahraga": 60
+    },
+    {
+        "No": 22,
+        "Murid": "Xania",
+        "Matematika": 74,
+        "IPA": 71,
+        "IPS": 96,
+        "Bahasa": 65,
+        "Seni": 94,
+        "Olahraga": 99
+    },
+    {
+        "No": 23,
+        "Murid": "Yuda",
+        "Matematika": 98,
+        "IPA": 70,
+        "IPS": 60,
+        "Bahasa": 60,
+        "Seni": 77,
+        "Olahraga": 80
+    },
+    {
+        "No": 24,
+        "Murid": "Zahra",
+        "Matematika": 90,
+        "IPA": 78,
+        "IPS": 93,
+        "Bahasa": 73,
+        "Seni": 62,
+        "Olahraga": 75
+    }
+]
