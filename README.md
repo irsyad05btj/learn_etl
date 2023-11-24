@@ -85,8 +85,7 @@ Jenis-jenis transformasi data
     - Pembersihan data: data tidak terpakai, dan duplikasi data
     - Penyesuaian kebutuhan data: penggabungan, pemisahan, dll
     - Pengubahan tipe data
-
-     Contoh :
+    Contoh :
 
     ```python
     def reduce(data): # menghilang kan 2 jenis data
