@@ -133,5 +133,5 @@ def convert(data_json): # ubah dari json of list, jadi list of json: Test!
 
 ### Load
 Hal yang perlu diperhatikan:
-    - Model penyimpanan data: Umumnya adalah database sql, terdapat hadoop, file (csv, excel, json, xml)
-    - Perlu nya perencanaan pada struktur penyimpanan: ERD, setup primary dan foreign key.
+- Model penyimpanan data: Umumnya adalah database sql, terdapat hadoop, file (csv, excel, json, xml)
+- Perlu nya perencanaan pada struktur penyimpanan: ERD, setup primary dan foreign key.
