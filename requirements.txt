@@ -1,0 +1,4 @@
+requests
+MySQLdb
+pysftp
+apscheduler
