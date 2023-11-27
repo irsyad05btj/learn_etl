@@ -18,7 +18,8 @@ Proses menarik data dari sumber menjadi informasi pada penyimpanan
 
 ### Extract
 3 Hal utama yg perlu diperhatikan:
-1. Akses
+1. 
+2. Akses
     - butuh izin akses seperti vpn?
     - tipe akses: api, ssh, sftp, database, file
 
@@ -59,26 +60,6 @@ Proses menarik data dari sumber menjadi informasi pada penyimpanan
         res_data = csv.reader(file, delimiter=',')
 
     ```
-
-2. Scheduler: Penjadwalan jalan nya suatu program
-
-3. Worker: Program yang bertugas menjalankan task/fungsi
-
-    Contoh scheduler-worker:
-    ```python
-    from apscheduler.schedulers.background import BlockingScheduler
-
-    # Creates a default Background Scheduler
-    sched = BlockingScheduler()
-
-    def prompt(): # worker task
-        print("Executing Task...")
-
-
-    sched.add_job(prompt,'interval', seconds=5) # scheduler jalan setiap 5 detik (interval)
-    sched.start()
-    ```
-
 
 ### Transform
 Jenis-jenis transformasi data 
@@ -135,3 +116,30 @@ def convert(data_json): # ubah dari json of list, jadi list of json: Test!
 Hal yang perlu diperhatikan:
 - Model penyimpanan data: Umumnya adalah database sql, terdapat hadoop, file (csv, excel, json, xml)
 - Perlu nya perencanaan pada struktur penyimpanan: ERD, setup primary dan foreign key.
+
+
+### Scheduler - Task - Worker
+1. Scheduler: Penjadwalan jalan nya suatu program (job).
+Hal yang perlu diperhatikan:
+- Cron
+- Interval
+- External Trigger
+
+2. Task: istilah untuk program yang ditujukan untuk mencapai suatu tujuan. Bisa berupa Method atau Fungsi
+
+3. Worker: Program yang bertugas menampung dan menjalankan task
+
+    Contoh scheduler-task:
+    ```python
+    from apscheduler.schedulers.background import BlockingScheduler
+
+    # Creates a default Background Scheduler
+    sched = BlockingScheduler()
+
+    def prompt(): # worker task
+        print("Executing Task...")
+
+
+    sched.add_job(prompt,'interval', seconds=5) # scheduler jalan setiap 5 detik (interval)
+    sched.start()
+    ```
