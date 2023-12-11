@@ -9,7 +9,7 @@ Buatlah skema Scheduler dan Worker dengan ketentuan
 Waktu
 Angka1
 Angka2
-Hasil Perhitungan
+Hasil
 ```
 
 Dijalankan selama 3 menit
