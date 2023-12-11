@@ -12,3 +12,4 @@ Angka2
 Hasil Perhitungan
 ```
 
+Dijalankan selama 3 menit
