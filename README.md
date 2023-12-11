@@ -144,3 +144,33 @@ Hal yang perlu diperhatikan:
     sched.add_job(prompt,'interval', seconds=5) # scheduler jalan setiap 5 detik (interval)
     sched.start()
     ```
+
+    -   Skema Worker
+    
+    Run Broker: 
+    Menggunakan RabbitMQ
+
+    run in docker: ```docker run -d -p 5672:5672 rabbitmq```
+
+    Contoh Worker:
+    ```python
+    from celery import Celery
+
+    app = Celery('tasks', broker='pyamqp://guest@localhost//')
+
+    @app.task
+    def add(x, y):
+        print('Berhasil masuk ke worker')
+        return x + y
+    ```
+
+    Run in terminal
+    ```
+    celery -A tasks worker --loglevel=INFO
+    ```
+
+    Panggil task pada worker
+    ```python 
+    from tasks import add
+    add.delay(4, 4)
+    ```
